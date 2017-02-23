@@ -1,0 +1,7 @@
+[23-Feb-2017 06:54:39 UTC] PHP Fatal error:  Cannot redeclare twentyseventeen_scripts() (previously declared in /home/ubuntu/workspace/wp-content/themes/twentyseven-child/functions.php:7) in /home/ubuntu/workspace/wp-content/themes/twentyseventeen/functions.php on line 410
+[23-Feb-2017 06:54:39 UTC] PHP Stack trace:
+[23-Feb-2017 06:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[23-Feb-2017 06:54:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[23-Feb-2017 06:54:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[23-Feb-2017 06:54:39 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[23-Feb-2017 06:54:39 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92

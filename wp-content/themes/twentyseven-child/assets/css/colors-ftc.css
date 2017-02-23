@@ -1,0 +1,560 @@
+/**
+ * Twenty Seventeen: Ftc Color Scheme
+ *
+ * See inc/color-patterns.php for dynamic color overrides for the theme.
+ *
+ * Colors are ordered from light to dark.
+ */
+
+.colors-ftc button,
+.colors-ftc input[type="button"],
+.colors-ftc input[type="submit"],
+.colors-ftc .entry-footer .edit-link a.post-edit-link {
+	background-color: #CBE32D;
+}
+
+.colors-ftc a:hover,
+.colors-ftc a:active,
+.colors-ftc .entry-content a:focus,
+.colors-ftc .entry-content a:hover,
+.colors-ftc .entry-summary a:focus,
+.colors-ftc .entry-summary a:hover,
+.colors-ftc .widget a:focus,
+.colors-ftc .widget a:hover,
+.colors-ftc .site-footer .widget-area a:focus,
+.colors-ftc .site-footer .widget-area a:hover,
+.colors-ftc .posts-navigation a:focus,
+.colors-ftc .posts-navigation a:hover,
+.colors-ftc .comment-metadata a:focus,
+.colors-ftc .comment-metadata a:hover,
+.colors-ftc .comment-metadata a.comment-edit-link:focus,
+.colors-ftc .comment-metadata a.comment-edit-link:hover,
+.colors-ftc .comment-reply-link:focus,
+.colors-ftc .comment-reply-link:hover,
+.colors-ftc .widget_authors a:focus strong,
+.colors-ftc .widget_authors a:hover strong,
+.colors-ftc .entry-title a:focus,
+.colors-ftc .entry-title a:hover,
+.colors-ftc .entry-meta a:focus,
+.colors-ftc .entry-meta a:hover,
+.colors-ftc.blog .entry-meta a.post-edit-link:focus,
+.colors-ftc.blog .entry-meta a.post-edit-link:hover,
+.colors-ftc.archive .entry-meta a.post-edit-link:focus,
+.colors-ftc.archive .entry-meta a.post-edit-link:hover,
+.colors-ftc.search .entry-meta a.post-edit-link:focus,
+.colors-ftc.search .entry-meta a.post-edit-link:hover,
+.colors-ftc .page-links a:focus .page-number,
+.colors-ftc .page-links a:hover .page-number,
+.colors-ftc .entry-footer .cat-links a:focus,
+.colors-ftc .entry-footer .cat-links a:hover,
+.colors-ftc .entry-footer .tags-links a:focus,
+.colors-ftc .entry-footer .tags-links a:hover,
+.colors-ftc .post-navigation a:focus,
+.colors-ftc .post-navigation a:hover,
+.colors-ftc .pagination a:not(.prev):not(.next):focus,
+.colors-ftc .pagination a:not(.prev):not(.next):hover,
+.colors-ftc .comments-pagination a:not(.prev):not(.next):focus,
+.colors-ftc .comments-pagination a:not(.prev):not(.next):hover,
+.colors-ftc .logged-in-as a:focus,
+.colors-ftc .logged-in-as a:hover,
+.colors-ftc a:focus .nav-title,
+.colors-ftc a:hover .nav-title,
+.colors-ftc .edit-link a:focus,
+.colors-ftc .edit-link a:hover,
+.colors-ftc .site-info a:focus,
+.colors-ftc .site-info a:hover,
+.colors-ftc .widget .widget-title a:focus,
+.colors-ftc .widget .widget-title a:hover,
+.colors-ftc .widget ul li a:focus,
+.colors-ftc .widget ul li a:hover {
+	color: #CBE32D;
+}
+
+.colors-ftc .entry-content a:focus,
+.colors-ftc .entry-content a:hover,
+.colors-ftc .entry-summary a:focus,
+.colors-ftc .entry-summary a:hover,
+.colors-ftc .widget a:focus,
+.colors-ftc .widget a:hover,
+.colors-ftc .site-footer .widget-area a:focus,
+.colors-ftc .site-footer .widget-area a:hover,
+.colors-ftc .posts-navigation a:focus,
+.colors-ftc .posts-navigation a:hover,
+.colors-ftc .comment-metadata a:focus,
+.colors-ftc .comment-metadata a:hover,
+.colors-ftc .comment-metadata a.comment-edit-link:focus,
+.colors-ftc .comment-metadata a.comment-edit-link:hover,
+.colors-ftc .comment-reply-link:focus,
+.colors-ftc .comment-reply-link:hover,
+.colors-ftc .widget_authors a:focus strong,
+.colors-ftc .widget_authors a:hover strong,
+.colors-ftc .entry-title a:focus,
+.colors-ftc .entry-title a:hover,
+.colors-ftc .entry-meta a:focus,
+.colors-ftc .entry-meta a:hover,
+.colors-ftc.blog .entry-meta a.post-edit-link:focus,
+.colors-ftc.blog .entry-meta a.post-edit-link:hover,
+.colors-ftc.archive .entry-meta a.post-edit-link:focus,
+.colors-ftc.archive .entry-meta a.post-edit-link:hover,
+.colors-ftc.search .entry-meta a.post-edit-link:focus,
+.colors-ftc.search .entry-meta a.post-edit-link:hover,
+.colors-ftc .page-links a:focus .page-number,
+.colors-ftc .page-links a:hover .page-number,
+.colors-ftc .entry-footer .cat-links a:focus,
+.colors-ftc .entry-footer .cat-links a:hover,
+.colors-ftc .entry-footer .tags-links a:focus,
+.colors-ftc .entry-footer .tags-links a:hover,
+.colors-ftc .post-navigation a:focus,
+.colors-ftc .post-navigation a:hover,
+.colors-ftc .pagination a:not(.prev):not(.next):focus,
+.colors-ftc .pagination a:not(.prev):not(.next):hover,
+.colors-ftc .comments-pagination a:not(.prev):not(.next):focus,
+.colors-ftc .comments-pagination a:not(.prev):not(.next):hover,
+.colors-ftc .logged-in-as a:focus,
+.colors-ftc .logged-in-as a:hover,
+.colors-ftc a:focus .nav-title,
+.colors-ftc a:hover .nav-title,
+.colors-ftc .edit-link a:focus,
+.colors-ftc .edit-link a:hover,
+.colors-ftc .site-info a:focus,
+.colors-ftc .site-info a:hover,
+.colors-ftc .widget .widget-title a:focus,
+.colors-ftc .widget .widget-title a:hover,
+.colors-ftc .widget ul li a:focus,
+.colors-ftc .widget ul li a:hover {
+	-webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, 0), 0 3px 0 rgba(255, 255, 255, 1); /* Equivalant to #fff */
+	box-shadow: inset 0 0 0 rgba(255, 255, 255, 0), 0 3px 0 rgba(255, 255, 255, 1); /* Equivalant to #fff */
+}
+
+.colors-ftc .entry-content a,
+.colors-ftc .entry-summary a,
+.colors-ftc .widget a,
+.colors-ftc .site-footer .widget-area a,
+.colors-ftc .posts-navigation a,
+.colors-ftc .widget_authors a strong {
+	-webkit-box-shadow: inset 0 -1px 0 rgba(240, 240, 240, 1); /* Equivalant to #f0f0f0 */
+	box-shadow: inset 0 -1px 0 rgba(240, 240, 240, 1); /* Equivalant to #f0f0f0 */
+}
+
+body.colors-ftc,
+.colors-ftc button,
+.colors-ftc input,
+.colors-ftc select,
+.colors-ftc textarea,
+.colors-ftc h3,
+.colors-ftc h4,
+.colors-ftc h6,
+.colors-ftc label,
+.colors-ftc .entry-title a,
+.colors-ftc.twentyseventeen-front-page .panel-content .recent-posts article,
+.colors-ftc .entry-footer .cat-links a,
+.colors-ftc .entry-footer .tags-links a,
+.colors-ftc .format-quote blockquote,
+.colors-ftc .nav-title,
+.colors-ftc .comment-body {
+	color: #eee;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+.colors-ftc ::-webkit-input-placeholder {
+	color: #ddd;
+}
+
+.colors-ftc :-moz-placeholder {
+	color: #ddd;
+}
+
+.colors-ftc ::-moz-placeholder {
+	color: #ddd;
+}
+
+.colors-ftc :-ms-input-placeholder {
+	color: #ddd;
+}
+
+.colors-ftc input[type="text"]:focus,
+.colors-ftc input[type="email"]:focus,
+.colors-ftc input[type="url"]:focus,
+.colors-ftc input[type="password"]:focus,
+.colors-ftc input[type="search"]:focus,
+.colors-ftc input[type="number"]:focus,
+.colors-ftc input[type="tel"]:focus,
+.colors-ftc input[type="range"]:focus,
+.colors-ftc input[type="date"]:focus,
+.colors-ftc input[type="month"]:focus,
+.colors-ftc input[type="week"]:focus,
+.colors-ftc input[type="time"]:focus,
+.colors-ftc input[type="datetime"]:focus,
+.colors-ftc input[type="datetime-local"]:focus,
+.colors-ftc input[type="color"]:focus,
+.colors-ftc textarea:focus,
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+	border-color: #eee;
+}
+
+.colors-ftc input[type="text"]:focus,
+.colors-ftc input[type="email"]:focus,
+.colors-ftc input[type="url"]:focus,
+.colors-ftc input[type="password"]:focus,
+.colors-ftc input[type="search"]:focus,
+.colors-ftc input[type="number"]:focus,
+.colors-ftc input[type="tel"]:focus,
+.colors-ftc input[type="range"]:focus,
+.colors-ftc input[type="date"]:focus,
+.colors-ftc input[type="month"]:focus,
+.colors-ftc input[type="week"]:focus,
+.colors-ftc input[type="time"]:focus,
+.colors-ftc input[type="datetime"]:focus,
+.colors-ftc input[type="datetime-local"]:focus,
+.colors-ftc input[type="color"]:focus,
+.colors-ftc textarea:focus,
+.colors-ftc button.secondary,
+.colors-ftc input[type="reset"],
+.colors-ftc input[type="button"].secondary,
+.colors-ftc input[type="reset"].secondary,
+.colors-ftc input[type="submit"].secondary,
+.colors-ftc a,
+.colors-ftc .site-title,
+.colors-ftc .site-title a,
+.colors-ftc .navigation-top a,
+.colors-ftc .dropdown-toggle,
+.colors-ftc .menu-toggle,
+.colors-ftc .page .panel-content .entry-title,
+.colors-ftc .page-title,
+.colors-ftc.page:not(.twentyseventeen-front-page) .entry-title,
+.colors-ftc .page-links a .page-number,
+.colors-ftc .comment-metadata a.comment-edit-link,
+.colors-ftc .comment-reply-link .icon,
+.colors-ftc h2.widget-title,
+.colors-ftc mark,
+.colors-ftc .post-navigation a:focus .icon,
+.colors-ftc .post-navigation a:hover .icon,
+.colors-ftc.blog .entry-meta a.post-edit-link,
+.colors-ftc.archive .entry-meta a.post-edit-link,
+.colors-ftc.search .entry-meta a.post-edit-link,
+.colors-custom .twentyseventeen-panel .recent-posts .entry-header .edit-link {
+	color: #ddd;
+}
+
+.colors-ftc h2,
+.colors-ftc blockquote,
+.colors-ftc input[type="text"],
+.colors-ftc input[type="email"],
+.colors-ftc input[type="url"],
+.colors-ftc input[type="password"],
+.colors-ftc input[type="search"],
+.colors-ftc input[type="number"],
+.colors-ftc input[type="tel"],
+.colors-ftc input[type="range"],
+.colors-ftc input[type="date"],
+.colors-ftc input[type="month"],
+.colors-ftc input[type="week"],
+.colors-ftc input[type="time"],
+.colors-ftc input[type="datetime"],
+.colors-ftc input[type="datetime-local"],
+.colors-ftc input[type="color"],
+.colors-ftc textarea,
+.colors-ftc .navigation-top .current-menu-item > a,
+.colors-ftc .navigation-top .current_page_item > a,
+.colors-ftc .entry-content blockquote.alignleft,
+.colors-ftc .entry-content blockquote.alignright,
+.colors-ftc .taxonomy-description,
+.colors-ftc .site-info a,
+.colors-ftc .wp-caption {
+	color: #ccc;
+}
+
+.colors-ftc abbr,
+.colors-ftc acronym {
+	border-bottom-color: #ccc;
+}
+
+.colors-ftc h5,
+.main-navigation a:hover,
+.colors-ftc .entry-meta,
+.colors-ftc .entry-meta a,
+.colors-ftc .nav-subtitle,
+.colors-ftc .comment-metadata,
+.colors-ftc .comment-metadata a,
+.colors-ftc .no-comments,
+.colors-ftc .comment-awaiting-moderation,
+.colors-ftc .page-numbers.current,
+.colors-ftc .page-links .page-number,
+.colors-ftc .site-description {
+	color: #005A31;
+}
+
+.colors-ftc button:hover,
+.colors-ftc button:focus,
+.colors-ftc input[type="button"]:hover,
+.colors-ftc input[type="button"]:focus,
+.colors-ftc input[type="submit"]:hover,
+.colors-ftc input[type="submit"]:focus,
+.colors-ftc .prev.page-numbers:focus,
+.colors-ftc .prev.page-numbers:hover,
+.colors-ftc .next.page-numbers:focus,
+.colors-ftc .next.page-numbers:hover,
+.colors-ftc .entry-footer .edit-link a.post-edit-link:focus,
+.colors-ftc .entry-footer .edit-link a.post-edit-link:hover {
+	background: #CBE32D;
+}
+
+.colors-ftc .social-navigation a:hover,
+.colors-ftc .social-navigation a:focus {
+	background: #eee;
+	color: #005A31;
+}
+
+.colors-ftc .entry-footer .cat-links .icon,
+.colors-ftc .entry-footer .tags-links .icon {
+	color: #666;
+}
+
+.colors-ftc button.secondary:hover,
+.colors-ftc button.secondary:focus,
+.colors-ftc input[type="reset"]:hover,
+.colors-ftc input[type="reset"]:focus,
+.colors-ftc input[type="button"].secondary:hover,
+.colors-ftc input[type="button"].secondary:focus,
+.colors-ftc input[type="reset"].secondary:hover,
+.colors-ftc input[type="reset"].secondary:focus,
+.colors-ftc input[type="submit"].secondary:hover,
+.colors-ftc input[type="submit"].secondary:focus,
+.colors-ftc .social-navigation a,
+.colors-ftc hr {
+	background: #eee;
+}
+
+.colors-ftc input[type="text"],
+.colors-ftc input[type="email"],
+.colors-ftc input[type="url"],
+.colors-ftc input[type="password"],
+.colors-ftc input[type="search"],
+.colors-ftc input[type="number"],
+.colors-ftc input[type="tel"],
+.colors-ftc input[type="range"],
+.colors-ftc input[type="date"],
+.colors-ftc input[type="month"],
+.colors-ftc input[type="week"],
+.colors-ftc input[type="time"],
+.colors-ftc input[type="datetime"],
+.colors-ftc input[type="datetime-local"],
+.colors-ftc input[type="color"],
+.colors-ftc textarea,
+.colors-ftc select,
+.colors-ftc fieldset,
+.colors-ftc .widget .tagcloud a:hover,
+.colors-ftc .widget .tagcloud a:focus,
+.colors-ftc .widget.widget_tag_cloud a:hover,
+.colors-ftc .widget.widget_tag_cloud a:focus,
+.colors-ftc .wp_widget_tag_cloud a:hover,
+.colors-ftc .wp_widget_tag_cloud a:focus {
+	border-color: #eee;
+}
+
+.colors-ftc button.secondary,
+.colors-ftc input[type="reset"],
+.colors-ftc input[type="button"].secondary,
+.colors-ftc input[type="reset"].secondary,
+.colors-ftc input[type="submit"].secondary,
+.colors-ftc .prev.page-numbers,
+.colors-ftc .next.page-numbers {
+	background-color: #eee;
+}
+
+.colors-ftc .widget .tagcloud a,
+.colors-ftc .widget.widget_tag_cloud a,
+.colors-ftc .wp_widget_tag_cloud a {
+	border-color: #eee;
+}
+
+.colors-ftc.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child),
+.colors-ftc .widget ul li {
+	border-top-color: #eee;
+}
+
+.colors-ftc .widget ul li {
+	border-bottom-color: #eee;
+}
+
+.colors-ftc pre,
+.colors-ftc mark,
+.colors-ftc ins,
+.colors-ftc input[type="text"],
+.colors-ftc input[type="email"],
+.colors-ftc input[type="url"],
+.colors-ftc input[type="password"],
+.colors-ftc input[type="search"],
+.colors-ftc input[type="number"],
+.colors-ftc input[type="tel"],
+.colors-ftc input[type="range"],
+.colors-ftc input[type="date"],
+.colors-ftc input[type="month"],
+.colors-ftc input[type="week"],
+.colors-ftc input[type="time"],
+.colors-ftc input[type="datetime"],
+.colors-ftc input[type="datetime-local"],
+.colors-ftc input[type="color"],
+.colors-ftc textarea,
+.colors-ftc select,
+.colors-ftc fieldset {
+	background: #A8CD1B;
+}
+
+.colors-ftc tr,
+.colors-ftc thead th {
+	border-color: #A8CD1B;
+}
+
+.colors-ftc .navigation-top,
+.colors-ftc .main-navigation > div > ul,
+.colors-ftc .pagination,
+.colors-ftc .comment-navigation,
+.colors-ftc .entry-footer,
+.colors-ftc .site-footer {
+	border-top-color: #A8CD1B;
+}
+
+.colors-ftc .single-featured-image-header,
+.colors-ftc .navigation-top,
+.colors-ftc .main-navigation li,
+.colors-ftc .entry-footer,
+.colors-ftc #comments {
+	border-bottom-color: #A8CD1B;
+}
+
+.colors-ftc .site-header,
+.colors-ftc .single-featured-image-header {
+	background-color: #eee;
+}
+
+.colors-ftc button,
+.colors-ftc input[type="button"],
+.colors-ftc input[type="submit"],
+.colors-ftc .prev.page-numbers:focus,
+.colors-ftc .prev.page-numbers:hover,
+.colors-ftc .next.page-numbers:focus,
+.colors-ftc .next.page-numbers:hover {
+	color: #eee;
+}
+
+body.colors-ftc,
+.colors-ftc .site-content-contain,
+.colors-ftc .navigation-top,
+.colors-ftc .main-navigation ul {
+	background: #005A31;
+}
+
+.colors-ftc .entry-title a,
+.colors-ftc .entry-meta a,
+.colors-ftc.blog .entry-meta a.post-edit-link,
+.colors-ftc.archive .entry-meta a.post-edit-link,
+.colors-ftc.search .entry-meta a.post-edit-link,
+.colors-ftc .page-links a,
+.colors-ftc .page-links a .page-number,
+.colors-ftc .entry-footer a,
+.colors-ftc .entry-footer .cat-links a,
+.colors-ftc .entry-footer .tags-links a,
+.colors-ftc .edit-link a,
+.colors-ftc .post-navigation a,
+.colors-ftc .logged-in-as a,
+.colors-ftc .comment-navigation a,
+.colors-ftc .comment-metadata a,
+.colors-ftc .comment-metadata a.comment-edit-link,
+.colors-ftc .comment-reply-link,
+.colors-ftc a .nav-title,
+.colors-ftc .pagination a,
+.colors-ftc .comments-pagination a,
+.colors-ftc .widget .widget-title a,
+.colors-ftc .widget ul li a,
+.colors-ftc .site-footer .widget-area ul li a,
+.colors-ftc .site-info a {
+	-webkit-box-shadow: inset 0 -1px 0 rgba(34, 34, 34, 1); /* Equivalant to #005A31 */
+	box-shadow: inset 0 -1px 0 rgba(34, 34, 34, 1); /* Equivalant to #005A31 */
+}
+
+/* Fixes linked images */
+.colors-ftc .entry-content a img,
+.colors-ftc .widget a img {
+	-webkit-box-shadow: 0 0 0 8px #005A31;
+	box-shadow: 0 0 0 8px #005A31;
+}
+
+.colors-ftc .entry-footer .edit-link a.post-edit-link {
+	color: #000;
+}
+
+.colors-ftc .menu-toggle,
+.colors-ftc .menu-toggle:hover,
+.colors-ftc .menu-toggle:focus,
+.colors-ftc .dropdown-toggle,
+.colors-ftc .dropdown-toggle:hover,
+.colors-ftc .dropdown-toggle:focus,
+.colors-ftc .menu-scroll-down,
+.colors-ftc .menu-scroll-down:hover,
+.colors-ftc .menu-scroll-down:focus {
+	background-color: transparent;
+}
+
+.colors-ftc .gallery-item a,
+.colors-ftc .gallery-item a:hover,
+.colors-ftc .gallery-item a:focus,
+.colors-ftc .widget .tagcloud a,
+.colors-ftc .widget .tagcloud a:focus,
+.colors-ftc .widget .tagcloud a:hover,
+.colors-ftc .widget.widget_tag_cloud a,
+.colors-ftc .widget.widget_tag_cloud a:focus,
+.colors-ftc .widget.widget_tag_cloud a:hover,
+.colors-ftc .wp_widget_tag_cloud a,
+.colors-ftc .wp_widget_tag_cloud a:focus,
+.colors-ftc .wp_widget_tag_cloud a:hover,
+.colors-ftc .entry-footer .edit-link a.post-edit-link:focus,
+.colors-ftc .entry-footer .edit-link a.post-edit-link:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+@media screen and (min-width: 48em) {
+
+	.colors-ftc .nav-links .nav-previous .nav-title .icon,
+	.colors-ftc .nav-links .nav-next .nav-title .icon {
+		color: #eee;
+	}
+
+	.colors-ftc .main-navigation li li:hover,
+	.colors-ftc .main-navigation li li.focus {
+		background: #005A31;
+	}
+
+	.colors-ftc .menu-scroll-down {
+		color: #005A31;
+	}
+
+	.colors-ftc .main-navigation ul ul {
+		border-color: #A8CD1B;
+		background: #005A31;
+	}
+
+	.colors-ftc .main-navigation ul li.menu-item-has-children:before,
+	.colors-ftc .main-navigation ul li.page_item_has_children:before {
+		border-bottom-color: #A8CD1B;
+	}
+
+	.main-navigation ul li.menu-item-has-children:after,
+	.main-navigation ul li.page_item_has_children:after {
+		border-bottom-color: #005A31;
+	}
+
+	.colors-ftc .main-navigation li li.focus > a,
+	.colors-ftc .main-navigation li li:focus > a,
+	.colors-ftc .main-navigation li li:hover > a,
+	.colors-ftc .main-navigation li li a:hover,
+	.colors-ftc .main-navigation li li a:focus,
+	.colors-ftc .main-navigation li li.current_page_item a:hover,
+	.colors-ftc .main-navigation li li.current-menu-item a:hover,
+	.colors-ftc .main-navigation li li.current_page_item a:focus,
+	.colors-ftc .main-navigation li li.current-menu-item a:focus {
+		color: #005A31;
+	}
+
+}
