@@ -1,0 +1,1 @@
+¯B¯X<?php exit; ?>a:1:{s:7:"content";a:5:{s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:10:"_edit_lock";a:1:{i:0;s:12:"1487835183:1";}s:17:"_wp_page_template";a:1:{i:0;s:7:"default";}s:19:"fdm_menu_column_one";a:1:{i:0;s:3:"5,6";}s:19:"fdm_menu_column_two";a:1:{i:0;s:5:"8,9,7";}}}
